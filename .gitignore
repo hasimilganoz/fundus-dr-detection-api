@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# datasets
+data/
+datasets/
+images/
+
+# training outputs
+results/
+runs/

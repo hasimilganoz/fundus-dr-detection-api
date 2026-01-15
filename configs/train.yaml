@@ -1,0 +1,38 @@
+# =========================
+# Reproducibility
+# =========================
+seed: 42
+
+# =========================
+# Training
+# =========================
+epochs: 60
+batch_size: 32
+lr: 0.0001
+num_workers: 4
+
+early_stopping:
+  patience: 5
+
+image_size: 224
+num_classes: 2
+
+val_split: 0.2
+
+# =========================
+# Paths
+# =========================
+paths:
+  train_dir: "C:/Users/Hasim/Desktop/MS IN CS/PROJECTS/RETINA PROJECT/EYEQ/Train_preprocessed"
+  test_dir:  "C:/Users/Hasim/Desktop/MS IN CS/PROJECTS/RETINA PROJECT/EYEQ/Test_preprocessed"
+
+  train_csv: "C:/Users/Hasim/Desktop/MS IN CS/PROJECTS/RETINA PROJECT/EYEPACKS/Label_EyeQ_train.csv"
+  test_csv:  "C:/Users/Hasim/Desktop/MS IN CS/PROJECTS/RETINA PROJECT/EYEPACKS/Label_EyeQ_test.csv"
+
+  output_dir: "C:/Users/Hasim/Desktop/MS IN CS/PROJECTS/RETINA PROJECT/Eyepack/weights"
+
+# =========================
+# Imbalance handling
+# =========================
+use_oversampling: true
+use_class_weights: false

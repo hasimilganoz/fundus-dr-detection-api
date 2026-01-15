@@ -1,0 +1,25 @@
+# Core numeric stack
+numpy==1.26.4
+scipy==1.11.4
+pandas==2.1.4
+
+# PyTorch (CPU only)
+torch==2.2.2
+torchvision==0.17.2
+
+# Image processing
+opencv-python==4.8.1.78
+pillow==10.2.0
+
+# ML utilities
+scikit-learn==1.4.2
+tqdm
+pyyaml
+
+# Visualization
+matplotlib==3.8.4
+
+# API
+fastapi
+uvicorn
+python-multipart
