@@ -25,7 +25,7 @@ This project is based on the EyePACS diebetic retinopathy dataset, a large-scale
 - **2 – Moderate**  
 - **3 – Severe**  
 - **4 – Proliferative DR**
-- 
+  
 # Data Preparation & Preprocessing
 ## Dataset Selection & Conversion
 
