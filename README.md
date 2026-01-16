@@ -71,7 +71,6 @@ This step helps to:
 The following preprocessing steps were applied:
 
 - Center cropping and padding to preserve the retinal region  
-- Image resizing to match CNN input requirements  
 - Pixel normalization for deep learning training  
 
 ---
@@ -79,8 +78,10 @@ The following preprocessing steps were applied:
 ## Dataset Splitting
 
 - **80% Training Set**
-- **20% Test Set**
-- Class imbalance handled during training using **class weighting**
+- **20% Validation Set**
+- Weighted class function and oversampling used during training to address class imblance
+  
+
   
     
 # Model Overview
